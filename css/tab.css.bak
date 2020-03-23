@@ -1,0 +1,27 @@
+/* Style the table */
+table {  
+    color: #227dd0;
+    font-family: Helvetica, Arial, sans-serif;
+    border-collapse: 
+    collapse; border-spacing: 0; 
+}
+
+td, th {  
+    height: 30px; 
+	color: #DFDFDF;
+}
+
+th {  
+    opacity: 0.90;
+	background: #227dd0;  /* Darken header a bit */
+    font-weight: bold;
+    text-align: center;
+	color: #DFDFDF;
+}
+
+td {  
+    opacity: 0.90;
+    background: #FAFAFA;
+    text-align: left;
+	color: #DFDFDF;
+}

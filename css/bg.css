@@ -1,0 +1,19 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  height: 100vh;
+  background: url("../images/backG.jpg") 50% fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@keyframes spinner {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  100% {
+    transform: rotateZ(359deg);
+  }
+}
+* {
+  box-sizing: border-box;
+}

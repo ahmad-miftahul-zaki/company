@@ -1,5 +1,5 @@
 <?php
-include "../koneksi.php";
+include "koneksi.php";
 $dnumber=$_POST['dnumber'];
 $mgrssn=$_POST['mgrssn'];
 $mgrstartdate=$_POST['mgrstartdate'];

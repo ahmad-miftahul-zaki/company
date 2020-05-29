@@ -1,5 +1,5 @@
 <?php
-include "../koneksi.php";
+include "koneksi.php";
 $dnumber=$_POST['dnumber'];
 $dlocation=$_POST['dlocation'];
 $sql="insert into dept_location values('$dnumber','$dlocation')";

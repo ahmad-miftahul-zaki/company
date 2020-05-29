@@ -9,18 +9,18 @@ document.location="index.html";</script>';
 <html lang="en">
  <head>
    <title>Department Location</title>
-    <link rel="shortcut icon" href="../images/z.png">
-	<link href="../css/bootstrap.min.css" rel="stylesheet">
-	<link href="../css/responsive-slider.css" rel="stylesheet">
-	<link rel="stylesheet" href="../css/animate.css">
-	<link rel="stylesheet" href="../css/font-awesome.min.css">
-	<link href="../css/sty.css" rel="stylesheet">	
-	<link rel="stylesheet" href="../css/tab.css">
-	<link rel="stylesheet" href="../css/blink.css">
-	<link rel="stylesheet" href="../css/button.css"> 
+    <link rel="shortcut icon" href="images/z.png">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/responsive-slider.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link href="css/sty.css" rel="stylesheet">	
+	<link rel="stylesheet" href="css/tab.css">
+	<link rel="stylesheet" href="css/blink.css">
+	<link rel="stylesheet" href="css/button.css"> 
 	<style>
 body { 
-  background: url(../images/437407.jpg) no-repeat center fixed;  
+  background: url(images/437407.jpg) no-repeat center fixed;  
 }
 </style>
  </head>
@@ -80,7 +80,7 @@ body {
 	<th width="100px">Action</th>
   </tr>
   <?php
-  include "../koneksi.php";
+  include "koneksi.php";
   $sql="select * from dept_location";
   $query=mysqli_query($conn,$sql);
   while($data=mysqli_fetch_array($query)){

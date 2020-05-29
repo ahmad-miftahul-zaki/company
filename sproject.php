@@ -1,5 +1,5 @@
 <?php
-include "../koneksi.php";
+include "koneksi.php";
 $pname=$_POST['pname'];
 $pnumber=$_POST['pnumber'];
 $dnum=$_POST['dnum'];

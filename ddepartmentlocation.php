@@ -1,5 +1,5 @@
 <?php
-include "../koneksi.php";
+include "koneksi.php";
 $dnumber=$_GET['dnumber'];
 $sql="delete from dept_location where dnumber='$dnumber'";
 $query=mysqli_query($conn,$sql);

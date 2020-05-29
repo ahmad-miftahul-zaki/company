@@ -11,18 +11,18 @@ document.location="index.html";</script>';
   <title>Home</title>
   <style>
 body { 
-  background: url(../images/437407.jpg) no-repeat center fixed;  
+  background: url(images/437407.jpg) no-repeat center fixed;  
 }
 </style>
-	<link rel="shortcut icon" href="../images/z.png">
-    <link href="../css/bootstrap.min.css" rel="stylesheet">
-	<link href="../css/responsive-slider.css" rel="stylesheet">
-	<link rel="stylesheet" href="../css/animate.css">
-	<link rel="stylesheet" href="../css/font-awesome.min.css">
-	<link href="../css/sty.css" rel="stylesheet">	
-	<link rel="stylesheet" href="../css/home.css">
-	<link rel="stylesheet" href="../css/tab.css">
-	<link rel="stylesheet" href="../css/blink.css">
+	<link rel="shortcut icon" href="images/z.png">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/responsive-slider.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link href="css/sty.css" rel="stylesheet">	
+	<link rel="stylesheet" href="css/home.css">
+	<link rel="stylesheet" href="css/tab.css">
+	<link rel="stylesheet" href="css/blink.css">
   </head>
 <body>    
 <header>

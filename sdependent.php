@@ -1,5 +1,5 @@
 <?php
-include "../koneksi.php";
+include "koneksi.php";
 $essn=$_POST['essn'];
 $dependent_name=$_POST['dependent_name'];
 $sex=$_POST['sex'];

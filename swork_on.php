@@ -1,5 +1,5 @@
 <?php
-include "../koneksi.php";
+include "koneksi.php";
 $essn=$_POST['essn'];
 $pno=$_POST['pno'];
 $hours=$_POST['hours'];

@@ -1,5 +1,5 @@
 <?php
-include "../koneksi.php";
+include "koneksi.php";
 $essn=$_GET['essn'];
 $sql="select * from dependent where essn='$essn'";
 $query=mysqli_query($conn,$sql);

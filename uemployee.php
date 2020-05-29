@@ -1,5 +1,5 @@
 <?php
-include "../koneksi.php";
+include "koneksi.php";
 $fname=$_POST['fname'];
 $lname=$_POST['lname'];
 $minit=$_POST['minit'];
